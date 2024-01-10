@@ -1,0 +1,240 @@
+@media (max-width:799px) {
+*{
+    color: white;
+}
+    .act {
+        width: 100%;
+        height: 100%;
+        color: #333;
+        z-index: 5;
+    }
+
+    .act.active {
+        width: 100%;
+        height: 100%;
+        color: #333;
+        background: #b0b0a7;
+    }
+
+    .lang {
+        display: inline-block;
+        width: 100%;
+        margin: 66px 0px;
+    }
+
+    /* navbar */
+    .link {
+        display: none;
+    }
+
+    .logo {
+        width: 20%;
+        position: absolute;
+        left: -9px;
+        top: 11px;
+    }
+
+    .logo img {
+        width: 27%;
+    }
+
+    .nav-menu {
+        width: 60%;
+        display: none;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        /* Show the menu when active */
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+    }
+
+    .nav-menu.active ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 158px;
+        background-color: #0F1624;
+    }
+
+    .main-menu button {
+        width: 171px;
+        font-size: 27px;
+    }
+
+    .humburger img {
+        display: flex;
+        width: 49px;
+        position: absolute;
+        right: 2px;
+        top: 0;
+    }
+
+    /* Main div */
+    #main-div {
+        width: 100%;
+    }
+
+    .main-menu {
+        width: 60%;
+        margin-top: 60px;
+        margin-left: -37px;
+    }
+
+    .main-pic img {
+        width: 100%;
+    }
+
+
+    .main-pic {
+        right: 30px;
+        top: 108px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .main-menu h1 {
+        font-size: 38px;
+    }
+
+    .main-menu p {
+        font-size: 20px;
+    }
+
+
+    /* project */
+    #project {
+        width: 100%;
+    }
+
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 84px;
+    }
+
+    .box-1 {
+        width: 453px;
+        height: 552px;
+        border-radius: 45px 0px;
+        border: 1px solid #F3EDED;
+        box-shadow: 1px 4px 9.8px 2px #D766CC;
+        margin-bottom: 52px;
+        margin-right: 0;
+    }
+
+    /* tech */
+    .tech {
+        width: 100%;
+    }
+
+    .tech h1 {
+        font-size: 50px;
+    }
+
+    .tool {
+        width: 100%;
+    }
+
+    /* .tool-box img {
+        width: 50%;
+    } */
+
+
+    .tool-box img {
+        width: 50%;
+    }
+
+    #withh {
+        width: 65%;
+    }
+
+
+    /* Language */
+    .lang img {
+        width: 100%;
+    }
+
+
+
+    /* footer */
+    .cont h3 {
+        font-size: 17px;
+    }
+
+    .Email h3 {
+        font-size: 18px;
+    }
+
+    .links img {
+        padding: 13px 2px;
+        width: 24px;
+    }
+
+
+
+
+    /* Service page  */
+
+    .my-tool {
+        margin: 36px 23px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .img img {
+        width: 80%;
+    }
+
+    /* Contact page */
+    .contact-us h1 {
+        font-size: 79px;
+    }
+
+    .contact-us h3 {
+        font-size: 42px;
+        color: white;
+    }
+
+    .option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 82px 0;
+        color: white;
+    }
+
+    .contact-us p {
+        font-size: 16px;
+        align-items: center;
+        padding: 38px 0px;
+        color: white;
+    }
+
+
+    .linkind,
+    .wp,
+    .con {
+        padding: 4px;
+        margin: 16px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .input input {
+        width: 554px;
+    }
+    .footer{
+        color: white;
+    }
+}

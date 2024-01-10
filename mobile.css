@@ -1,0 +1,181 @@
+@media (max-width:477px) {
+
+    .logo {
+        width: 36%;
+        position: absolute;
+        left: -8px;
+        top: 10px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu.show{
+        display: block;
+        color: black;
+        flex-direction: column;
+    }
+
+    .humburger img {
+        display: flex;
+        width: 49px;
+        position: absolute;
+        right: 5px;
+    }
+
+    #mar {
+        margin: auto 67px;
+    }
+
+
+    /* Main section */
+    .main-pic {
+        display: none;
+    }
+
+    #main-div {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-menu {
+        width: 109%;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .main-menu h3 {
+        font-size: 41px;
+    }
+
+    .main-menu h1 {
+        font-size: 22px;
+    }
+
+    .main-menu p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .main-menu button {
+        width: 131px;
+        font-size: 24px;
+        height: 48px;
+        margin-top: 24px;
+    }
+
+    #project strong {
+        font-size: 41px;
+    }
+
+    .box-1,
+    .box-2 {
+        width: 300px;
+        height: 460px;
+    }
+
+    .box-1 img,
+    .box-2 img {
+        width: 273px;
+        height: 158px;
+    }
+
+    .tech h1 {
+        font-size: 32px;
+    }
+
+
+    .tool-box {
+        width: 100%;
+        margin-top: 44px;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+    .cont {
+        width: 20%;
+        position: absolute;
+        left: 9px;
+    }
+
+    .cont h3 {
+        font-size: 13px;
+    }
+
+    .Email h3 {
+        font-size: 13px;
+        position: absolute;
+        right: 88px;
+    }
+
+    .links {
+        position: absolute;
+        right: 0;
+    }
+
+    .links img {
+        padding: 13px 2px;
+        width: 19px;
+    }
+
+    /* About Page*/
+    .service h1 {
+        font-size: 54px;
+    }
+
+    .service h3 {
+        font-size: 17px;
+    } 
+
+
+    /* contact page */
+    .contact-us {
+        margin: 69px 0;
+    }
+
+    .contact-us h1 {
+        font-size: 37px;
+    }
+
+    .contact-us h3 {
+        font-size: 23px;
+    }
+    .contact-us p {
+        font-size: 12px;
+        padding: 19px 0px;
+    }
+    .option {
+        flex-direction: column;
+    }
+    .linkind, .wp, .con {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .wp p,
+    .con p{
+        font-size: 25px;
+    }
+
+    .form {
+        width: 136%;
+    }
+
+    .form-f {
+        font-size: 39px;
+    }
+
+    .input input {
+        width: 299px;
+        margin: 9px;
+        height: 45px;
+    }
+
+
+    .btn {
+        margin: 16px 0;
+    }
+}
